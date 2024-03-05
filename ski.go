@@ -7,10 +7,10 @@ type BaseSupply struct {
 }
 
 type Freezer struct {
+	BaseSupply
 	latitude, longitude float64
 }
 type Beer struct {
-	BaseSupply
 	alcohol_percent_min, alcohol_percent_max float64
 }
 
